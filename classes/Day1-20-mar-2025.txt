@@ -11,6 +11,27 @@ https://www.microsoft.com/en-us/power-platform/products/power-bi/downloads
 download data  - top 10 economies in the world
 
 top 10 economies in the world 2025
+click on forbes india
+
+git
+
+www.kaushalya.tech
+click on git
+Repositories
+powerbi_mar_2025
+
+Hands-on session
+1. Create following reports for top 10 economies
+a. bar chart of Country vs GDP
+b. Line chart of country vs annual growth rate
+c. pie chart of country vs ppp
+2. publish this to app.powerbi.com
+3. download power bi mobile app from the playstore/app store
+4. Install and open to see the dashboard/report
+
+
+
+
 
 
 
