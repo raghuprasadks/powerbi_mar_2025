@@ -20,7 +20,7 @@ click on git
 Repositories
 powerbi_mar_2025
 
-Hands-on session
+Hands-on session 1
 1. Create following reports for top 10 economies
 a. bar chart of Country vs GDP
 b. Line chart of country vs annual growth rate
@@ -28,6 +28,11 @@ c. pie chart of country vs ppp
 2. publish this to app.powerbi.com
 3. download power bi mobile app from the playstore/app store
 4. Install and open to see the dashboard/report
+
+
+Hands-on session 2
+1. create Adidas dashboard as per the requirement and data provided
+
 
 
 
