@@ -1,0 +1,17 @@
+Agenda:
+1. Introduction to Business Intelligence
+2. Introduction to Data Analytics
+3. Tools for BI/DA
+4. Getting Started with Power BI
+search power bi desktop
+for mac
+app.powerbi.com
+5. Starting with Sample reports
+https://www.microsoft.com/en-us/power-platform/products/power-bi/downloads
+download data  - top 10 economies in the world
+
+top 10 economies in the world 2025
+
+
+
+
