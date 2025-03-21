@@ -27,3 +27,6 @@ product - product
 supplier - supplier
 order - 
 orderdetails
+
+w3schools sql data in csv format
+https://github.com/uwla/sample_mysql_database
