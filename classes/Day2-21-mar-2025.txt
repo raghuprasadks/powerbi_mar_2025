@@ -30,3 +30,34 @@ orderdetails
 
 w3schools sql data in csv format
 https://github.com/uwla/sample_mysql_database
+
+download files from 
+data/w3schools/
+
+Reports
+1 . Category wise product count
+
+SELECT CategoryName,count(*) as count FROM Categories,Products
+where Categories.CategoryID = Products.CategoryID
+group by Categories.CategoryID 
+order by count(*)  desc
+3. Country wise count of customers -
+Top 5
+4. Top 5 products in terms of sales
+
+SELECT Products.ProductName, sum(Products.Price * OrderDetails.quantity) as totalvalue FROM Products,OrderDetails
+where Products.ProductID = OrderDetails.ProductID
+group by Products.ProductName
+order by totalvalue desc limit 5
+
+
+5. Top 5 customers in terms of sales
+
+
+
+
+
+
+
+
+
