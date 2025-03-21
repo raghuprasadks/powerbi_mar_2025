@@ -16,3 +16,14 @@ app.powerbi.com
 www.kaushalya.tech
 
 git->repositories->powerbi-mar-2025
+data - 3-top10economies
+
+
+
+Data Model
+
+sign up  - user
+product - product
+supplier - supplier
+order - 
+orderdetails
