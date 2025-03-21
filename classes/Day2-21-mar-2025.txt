@@ -1,0 +1,18 @@
+Agenda:
+Recap:
+Power BI - Day 1
+Business Intelligence/Data Visualization
+download and install power bi desktop
+top 10 economies in the world
+
+app.powerbi.com
+
+1. Data Transformation
+2. Introduction to Data Analysis Expression
+(DAX)
+3. Data Modelling
+4. Implementation of use cases
+
+www.kaushalya.tech
+
+git->repositories->powerbi-mar-2025
