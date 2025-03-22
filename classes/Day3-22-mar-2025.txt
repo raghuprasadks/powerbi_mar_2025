@@ -1,3 +1,4 @@
 Agenda:
 1. Madhav Stores ECommerce Dashboard
 2. Amazon dashboard
+3. DAX functions

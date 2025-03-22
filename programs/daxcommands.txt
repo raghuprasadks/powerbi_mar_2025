@@ -1,0 +1,33 @@
+/**
+1. display all data of a data sheet
+Evaluate
+Amazon_Data
+2. display first 10 records of a data sheet
+EVALUATE
+    TOPN(100, 'Amazon_Data')
+
+3. display data of Amazon_Data having review >50
+EVALUATE
+FILTER(
+    Amazon_Data,
+    Amazon_Data[Number of  reviews] > 50
+)
+4. display selected columns
+EVALUATE
+SELECTCOLUMNS(
+    Amazon_Data,
+    Amazon_Data[Number of  reviews],
+   Amazon_Data[Product Description]
+)
+5. aggregate function
+EVALUATE
+SUMMARIZECOLUMNS(	
+	"maximum price",max(Amazon_Data[Price(Dollar)]),
+	"minimum price",min(Amazon_Data[Price(Dollar)]),
+	"average price",average(Amazon_Data[Price(Dollar)])
+)
+**/
+
+
+https://dax.guide/
+
