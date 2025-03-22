@@ -1,0 +1,22 @@
+new measure 
+	YTD Products Sold = TOTALYTD(COUNT(Amazon_Data[Product Category]), 'Calendar Table'[Date])
+
+	QTD Sales = TOTALQTD(SUM(Amazon_Data[Price(Dollar)]), 'Calendar Table'[Date])
+
+	YTD Products Sold = TOTALYTD(COUNT(Amazon_Data[Product Category]), 'Calendar Table'[Date])
+
+	YTD Reviews = TOTALYTD(SUM(Amazon_Data[Number of  reviews]), 'Calendar Table'[Date])
+
+	YTD Sales = TOTALYTD(SUM(Amazon_Data[Price(Dollar)]), 'Calendar Table'[Date])
+
+
+
+New table 
+	Calendar Table = CALENDAR(MIN(Amazon_Data[Order Date]), MAX(Amazon_Data[Order Date]))
+
+new column
+	Month = FORMAT('Calendar Table new'[Date],"mmm")
+	Month number = MONTH('Calendar Table new'[Date])
+	Quarter = QUARTER('Calendar Table new'[Date])
+	Week = WEEKNUM('Calendar Table new'[Date])
+	Year = YEAR('Calendar Table new'[Date])
