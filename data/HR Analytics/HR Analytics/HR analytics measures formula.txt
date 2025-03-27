@@ -1,0 +1,6 @@
+Measures:
+
+Attrition Rate = SUM('HR data'[Attrition Count])/SUM('HR data'[Employee Count])
+
+
+Current Employee = SUM('HR data'[Employee Count])-SUM('HR data'[Attrition Count])

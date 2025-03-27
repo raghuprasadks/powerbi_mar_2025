@@ -1,0 +1,18 @@
+new measures
+ 
+	1.Timely Response = calculate(countrows('tablename',tablename[timely response?]='yes')
+
+	2. timely response %= ([timely response]/[total complaints])
+
+
+	3. consumer disputed complaints = calculate('table name', tablename[consumer disputed?]= 'yes)
+
+	4. Disputed rate= [consumer disputed complaints]/ [total complaints]
+
+	5. In progress = calculate(countrows('tablename'),'tablename'[compant response to consumer]='In progress')
+
+	6. Resolved at No Cost = [Resolved at no cost total complaints]/ [Total Complaints]
+
+	7.Resolved at no cost total complaints = CALCULATE(COUNTROWS('Financial Consumer Complaints_Financial Consumer Complaints'), 'Financial Consumer Complaints_Financial Consumer 			Complaints'[Company response to consumer] <> "Closed with monetary relief")
+
+	8.Total Complaints = COUNTROWS('Financial Consumer Complaints_Financial Consumer Complaints')
